@@ -1,7 +1,16 @@
 aid: primelifescience
-name: primelifescience
-description: primelifescience is a company surfaced as a portfolio company of qiming and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Prime Life Science
+description: >-
+  Prime Life Science (璞睿生命科技) is a Chinese life-science technology company
+  focused on digital and intelligent (数智化) clinical research. Its business spans
+  the full lifecycle from clinical research to commercial decision-making, offering
+  digital innovation solutions built on big data and artificial intelligence. The
+  company positions itself as a "digital intelligent clinical research accelerator"
+  aimed at driving innovative drug and device development, health management, and
+  improved clinical-research decision-making and operational efficiency in China.
+  Surfaced as a portfolio company of the Qiming venture fund and added to the API
+  Evangelist network; the public presence is a WordPress marketing site with no
+  developer or API surface discovered during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/primelifescience/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,29 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Life Sciences
+- Clinical Research
+- Healthcare
+- Artificial Intelligence
+- Big Data
+- China
+image: https://www.primelifescience.com.cn/wp-content/uploads/2023/07/00987-1-scaled.jpg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/primelifescience-domain-security.yml
 - type: Website
-  url: https://primelifescience.com.cn
+  url: https://www.primelifescience.com.cn
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

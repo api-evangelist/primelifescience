@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.primelifescience.com.cn
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 12 12:44:34 2026 GMT
+  hsts: false
+domains:
+- domain: primelifescience.com.cn
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
